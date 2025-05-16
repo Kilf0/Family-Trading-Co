@@ -61,6 +61,19 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/images\/repose-bg.jpg" : {
+      "ft" : 16384,
+      "iS" : 288640,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/repose-bg.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
