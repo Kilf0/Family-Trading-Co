@@ -7,7 +7,7 @@
       "uuidString" : "812A201D-5038-43C8-A9B2-C25D5B849B6C"
     }
   ],
-  "creatorBuild" : "34704",
+  "creatorBuild" : "34689",
   "files" : {
     "\/images\/Background.png" : {
       "ft" : 32768,
@@ -20,6 +20,32 @@
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
+      "rq" : 75
+    },
+    "\/images\/bg-blue.jpg" : {
+      "ft" : 16384,
+      "iS" : 357331,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/bg-blue.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/bg-table.jpg" : {
+      "ft" : 16384,
+      "iS" : 295844,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/bg-table.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
       "rq" : 75
     },
     "\/images\/Blueberries copy.png" : {
@@ -46,6 +72,19 @@
       "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/blueberry-repose-bottle.png" : {
+      "ft" : 32768,
+      "iS" : 421087,
+      "oA" : 0,
+      "oAP" : "\/images\/blueberry-repose-bottle.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
       "rq" : 75
     },
     "\/images\/Logo.png" : {
@@ -80,8 +119,8 @@
       "oA" : 0,
       "oAP" : "\/images\/picture-left.png",
       "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -102,12 +141,12 @@
     },
     "\/images\/picture-right.png" : {
       "ft" : 32768,
-      "iS" : 0,
+      "iS" : 6666,
       "oA" : 0,
       "oAP" : "\/images\/picture-right.png",
       "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 90,
@@ -147,7 +186,7 @@
       "pg" : 0
     },
     "\/style.css" : {
-      "aP" : 1,
+      "aP" : 0,
       "bl" : 0,
       "ci" : 0,
       "co" : 0,
