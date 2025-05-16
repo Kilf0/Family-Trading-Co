@@ -61,6 +61,58 @@
       "q" : 90,
       "rq" : 75
     },
+    "\/images\/picture-left.jpg" : {
+      "ft" : 16384,
+      "iS" : 7373,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/picture-left.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/picture-left.png" : {
+      "ft" : 32768,
+      "iS" : 7450,
+      "oA" : 0,
+      "oAP" : "\/images\/picture-left.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/images\/picture-right.jpg" : {
+      "ft" : 16384,
+      "iS" : 8165,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/picture-right.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/picture-right.png" : {
+      "ft" : 32768,
+      "iS" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/picture-right.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/images\/repose-bg.jpg" : {
       "ft" : 16384,
       "iS" : 288640,
