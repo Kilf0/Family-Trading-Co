@@ -15,6 +15,9 @@ a {
 ul {
   list-style: none;
 }
+h2 {
+  text-align: center;
+}
 img {
   max-width: 100%;
 }
@@ -58,6 +61,14 @@ header {
 
 .navbar .main-menu ul {
   display: flex;
+}
+@media (max-width: 767px) {
+  .top-bar {
+    flex-direction: column;
+  }
+  .navbar .main-menu ul {
+    flex-direction: column;
+  }
 }
 
 .navbar ul li a {
@@ -246,11 +257,15 @@ footer {
 .footer-content {
   display: grid;
   grid-template-columns: 1fr 1fr 2fr;
-  align-items: center;
   gap: 30px 75px;
   padding: 5rem 2rem;
   border-top: #e0b85c solid 3px;
   margin: 10rem 0;
+}
+@media (max-width: 767px) {
+  .footer-content {
+    grid-template-columns: 1fr;
+  }
 }
 
 .footer-content .footer-nav {
