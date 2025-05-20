@@ -31,7 +31,7 @@ header {
 
 /* Navbar*/
 .navbar {
-  padding: 10px;
+  padding: 1px;
 }
 
 .navbar {
@@ -157,6 +157,17 @@ a:hover {
   transform: rotate(10deg);
 }
 
+/* OUR INGREDIENTS */
+.ingredients {
+  padding: 7rem;
+  background-color: rgb(174, 190, 212);
+  background-image: url("images/repose-ingredents-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: relative;
+}
+
 /* Utilities */
 .container-max {
   max-width: 100%;
@@ -223,7 +234,7 @@ a:hover {
   font-size: 1rem;
   line-height: 1.5;
   font-weight: 200;
-  margin: 45px 0 35px;
+  margin: 15px 0 35px;
 }
 .text-xsm {
   font-size: 0.7rem;

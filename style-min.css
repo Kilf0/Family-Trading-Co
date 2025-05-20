@@ -4,11 +4,8 @@
   padding: 0;
 }
 
-.hero-image {
-  font-size: 16px;
-  line-height: 1.5rem;
-  //background: white;
-  overflow-x: hidden;
+html {
+  scroll-behavior: smooth;
 }
 
 a {
@@ -22,9 +19,19 @@ img {
   max-width: 100%;
 }
 
+h1 {
+  line-height: 0.8;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 /* Navbar*/
 .navbar {
-  padding: 10px;
+  padding: 1px;
 }
 
 .navbar {
@@ -77,23 +84,50 @@ a:hover {
 }
 
 /* Hero*/
-.hero-content {
-  max-width: 100%;
-}
 .hero {
   padding-top: 7rem;
+  background-color: rgb(174, 190, 212);
+  background-image: url("images/bg-blue.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: relative;
 }
-
+.hero:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: url("images/bg-table.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero .container-md {
+  position: relative;
+  z-index: 1;
+}
 .hero-image {
   display: flex;
+  flex-wrap: wrap;
+}
+.hero-content {
+  flex: 1 1 300px;
+}
+.hero-content h1 span {
+  display: block;
+  margin: 0;
 }
 .bottle {
+  flex: 1 1 300px;
   padding-top: 2rem;
   padding-bottom: 4.5rem;
 }
 
 /* OUR STORY */
 .story {
+  padding: 5rem 0;
   background: #ffffff;
   background: linear-gradient(
     180deg,
@@ -113,16 +147,25 @@ a:hover {
   margin: 20px 10px;
   text-align: center;
 }
-
 .story-pictures {
-  display: flex;
-  max-width: 100%;
-  align-items: center;
-  justify-self: center;
+  text-align: center;
 }
-
 .story-pictures .kiddo {
   max-width: 30%;
+  border: 0.5rem solid white;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.375);
+  transform: rotate(10deg);
+}
+
+/* OUR INGREDIENTS */
+.ingredients {
+  padding: 7rem;
+  background-color: rgb(174, 190, 212);
+  background-image: url("images/repose-ingredents-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: relative;
 }
 
 /* Utilities */
@@ -150,28 +193,25 @@ a:hover {
 /* Text Classes */
 .text-xxxl {
   font-size: 5rem;
-  line-height: 0.2;
   font-weight: 700;
   margin: 50px 0 10px;
 }
 
 .text-xxl {
   font-size: 4rem;
-  line-height: 0.25;
   font-weight: 600;
   margin: 40px 0 20px;
 }
 
 .text-xxl-light {
   font-size: 4rem;
-  line-height: 0.25;
   font-weight: 200;
   margin: 40px 0 20px;
 }
 
 .text-xl {
-  font-size: 3.2rem;
-  line-height: 0.35;
+  font-size: 2rem;
+  line-height: 1.1;
   font-weight: 500;
   margin: 35px 0 25px;
 }
@@ -194,7 +234,7 @@ a:hover {
   font-size: 1rem;
   line-height: 1.5;
   font-weight: 200;
-  margin: 45px 0 35px;
+  margin: 15px 0 35px;
 }
 .text-xsm {
   font-size: 0.7rem;
@@ -206,7 +246,6 @@ a:hover {
 .comfortaa {
   font-family: "Comfortaa", sans-serif;
 }
-
 .neue {
   font-family: "Neue", sans-serif;
 }
@@ -237,11 +276,4 @@ a:hover {
   border-width: 2px;
   cursor: pointer;
   text-align: center;
-}
-
-body {
-  background-image: url("images/Background.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
